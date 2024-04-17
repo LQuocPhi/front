@@ -1,0 +1,42 @@
+.MainCategory-products{
+    margin-left: 60px;
+    grid-gap: 80px;
+    margin-right: 60px;
+    
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.banner_img{
+    margin-left: 120px;
+}
+.MainCategory-products img{
+    width: 150ox;
+    height: 180px;
+}
+.MainCategory-indexSort{
+    display: flex;
+    margin-left: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.MainCategory-indexSort p span {
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.MainCategory-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 2px solid whitesmoke;
+}
+
+.MainCategory{
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+}

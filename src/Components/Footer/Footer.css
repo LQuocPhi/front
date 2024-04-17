@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px ;
+    background: linear-gradient(180deg, black,rgb(86, 85, 85))80%;
+}
+
+.footer-link{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: bisque;
+    font-size: 20px;
+}
+
+.footer-link li{
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.footer-icon{
+    display: flex;
+    cursor: pointer;
+}
+
+.icon-container{
+    padding: 10px;
+    padding-bottom: 6px;
+
+}
